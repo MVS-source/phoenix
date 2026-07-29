@@ -1,5 +1,24 @@
 # Changelog
 
+## [19.11.0](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v19.10.0...arize-phoenix-v19.11.0) (2026-07-29)
+
+
+### Features
+
+* **evals:** count subagent tool calls online ([#14843](https://github.com/Arize-ai/phoenix/issues/14843)) ([819c09b](https://github.com/Arize-ai/phoenix/commit/819c09b5547caf5ce2505bbf3da62380c270ddbd))
+* show tool and tool call counts in LLM span card headers ([#14841](https://github.com/Arize-ai/phoenix/issues/14841)) ([0be0c11](https://github.com/Arize-ai/phoenix/commit/0be0c11aa648b6ef73896831577dc1dfc852635a)), closes [#14712](https://github.com/Arize-ai/phoenix/issues/14712)
+
+
+### Bug Fixes
+
+* accept null provider in createModel and report the real conflict ([#14847](https://github.com/Arize-ai/phoenix/issues/14847)) ([6cea2cf](https://github.com/Arize-ai/phoenix/commit/6cea2cf3b1130f747f4550832af4bc90e26533d9))
+* **trace:** put a copy button in the top right of every span card ([#14814](https://github.com/Arize-ai/phoenix/issues/14814)) ([2074035](https://github.com/Arize-ai/phoenix/commit/2074035abfc3349db0a80940d0501bac28a51639))
+
+
+### Documentation
+
+* add REST how-to for linking dataset examples to spans ([#14810](https://github.com/Arize-ai/phoenix/issues/14810)) ([2b039ae](https://github.com/Arize-ai/phoenix/commit/2b039ae4bca89ac49a77d8356e1db7da0d772094))
+
 ## [19.10.0](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v19.9.0...arize-phoenix-v19.10.0) (2026-07-28)
 
 
